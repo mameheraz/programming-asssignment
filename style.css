@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+    padding: 16px 0px;
+}
+nav{
+    width: 88%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu ul{
+    display: flex;
+    gap: 32px;
+}
+nav .menu ul li{
+    list-style-type: none;
+}
+nav .menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+nav .logo img{
+    width:139px;
+    height:60px;
+    background-size: cover;
+}
+/* Buttons */
+
+.button-design{
+    padding: 12px 16px;
+    background-color: #469165;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+}
+.button-design-2{
+    background-color: transparent;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px solid White;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.button-container button img{
+    width: 20px;
+    line-height: 1;
+    margin-bottom: -4px;
+    margin-left: 10px;
+}
+
+.content-div button img{
+    width: 20px;
+    line-height: 1;
+    margin-bottom: -4px;
+    margin-left: 10px;
+}
+
+nav .button button{
+    padding: 12px 16px;
+    background-color: #469165;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.hero-container{
+    width: 1536px;
+    background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    padding: 154px 314px 179px 314px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin: 0px auto; */
+
+}
+.hero-main{
+    width: 88%;
+    max-width: 1360px;
+    /* padding: 52px 295px 76px 295px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.hero-main h1{
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+.hero-main .heading-color{
+    color: #30B868;
+}
+.paragraph{
+    padding: 8px 12px 8px 12px;
+    font-size: 16px;
+    color: #469165;
+    background-color:#fff;
+    border-radius: 50px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.paragraph-2{
+    width: 700px;
+    color: white;
+    font-size:18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.button-container{
+    gap: 10px;
+}
+
+/* Notes sevtion */
+.heading h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #001931;
+}
+/* .notes-container{
+    width: 88%;
+    max-width: 1360px;
+    margin: 0px auto;
+} */
+.heading{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+.heading p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #627382;
+    margin-top: 10px;
+}
+.notes-container{
+    width: 100%;
+    max-width: 1536px;
+    background-color: #fbfbfb;
+    padding-bottom: 50px;
+}
+.cart{
+    width: 88%;
+    max-width: 1360px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cart-1{
+    width: 322px;;
+    background-color: white;
+    padding: 50px 25px 50px 25px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);    
+    border-radius: 8px;
+    align-items: center;
+}
+.cart-1 h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.cart-1 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    text-align: center;
+}
+.cart-1 img{
+    display: block;
+    margin: 0px auto;
+    width: 32px;
+    height: 32px;
+    background-color: #F95555;
+    padding: 5px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+/* solution-section CSS */
+
+.solution-container{
+    width: 88%;
+    margin: 0px auto;
+    max-width: 1360px;
+    display: flex;
+    padding: 120px 0;
+}
+
+.content{
+    padding-top: 101px;
+    padding-left: 60px;
+    padding-bottom: 101px;
+}
+.content .solution{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #469165;
+    margin-bottom: 16px;
+}
+.content h2{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.content .parag-2{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.content ul li{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    list-style-type: none;
+}
+.content ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.content ul li img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: -5px;
+    border-radius: 12px;
+
+}
+/* ready to section CSS */
+
+.readyto-sec{
+    width: 88%;
+    margin: 0px auto;
+    max-width: 1360px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+.content-div {
+    margin: 0px auto;
+    padding: 80px 40px;
+    align-items: center;
+    text-align: center;
+}
+.content-div .heading-3{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.content-div .paragr-1{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 16px;
+    width: 600px;
+    margin: 0px auto;
+    margin-bottom: 16px;
+}
+.content-div .button-design{
+    margin-bottom: 16px;
+}
